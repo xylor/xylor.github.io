@@ -2,44 +2,6 @@ body {
   background-color: #edf2f7;
 }
 
-#topnav, #midbox, #footer{
-  margin: 1vw;
-  border: solid;
-  border-color: MidnightBlue;
-  border-radius: 5px 5px 5px 5px;
-  border-width: thin;
-  padding: 1vw;
-  background-color: white;
-}
-
-/*#topnav {
-  position: fixed;
-  width: 96vw;
-  top: 0;
-  left: 0;
-}
-
-#midbox {
-  position: fixed;
-  width: 96vw;
-  top: 20vh;
-  left: 0;
-}
-
-#footer {
-  position: fixed;
-  width: 96vw;
-  bottom: 20vh;
-  left: 0;
-}*/
-
-#navtitle {
-  text-align: center;
-  font-family: "Verdana";
-  font-size: 5vw;
-  color: MidnightBlue;
-}
-
 .divlink {
   margin: 1vh;
   border-width: 1px;
