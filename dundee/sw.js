@@ -2,7 +2,7 @@ var cacheName = 'dundee';
 var filesToCache = [
   './',
   './index.html',
-  './app/app.css',
+  './app/app.js',
   './app/menu.js'
 ];
 
