@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Project Aberdeen; 2020-03-19; xylor -->
+<!-- mod-2020-03-22 -->
+
+<head>
+  <title>Aberdeen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./style/common.css">
+  <link rel="stylesheet" type="text/css" href="./style/menu.css">
+  <link rel="icon" href="favicon.ico" type="image/ico" sizes="32x32">
+</head>
+
+<body>
+  <div id="nav-viewlayer">
+    <div id="menu-dropdown" class="overlay overlay-leftright">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeLeftRightOverlay('overlay-left')">&times;</a>
+      <div class="overlay-content">LEFT</div>
+    </div>
+  </div>
+
+  <div id="base-viewlayer">
+    <div id="topnav">
+      <img id="menu_button" src="./style/menu.svg" alt="menu" onclick="openLeftOverlay('overlay-left')">
+      <img id="search" src="./style/search.svg" alt="search" onclick="document.location.href='../'">
+      <input id="search_box" type="text" placeholder="Search..">
+    </div>
+    <div id="midbox">
+      <textarea id="main_area" name="message">
+The cat was playing in the garden.
+      </textarea>
+    </div>
+    <div id="footer">
+      <img id="create_button" src="./style/create.svg" alt="create" onclick="document.location.href='../'">
+      <img id="night_button" src="./style/brightness.svg" alt="night" onclick="document.location.href='../'">
+      <img id="calendar_button" src="./style/insert_invitation.svg" alt="calendar" onclick="document.location.href='../'">
+      <img id="time_button" src="./style/schedule.svg" alt="time" onclick="document.location.href='../'">
+    </div>
+  </div>
+
+  <div id="overlay-viewlayer">
+  </div>
+
+  <!-- Javascript -->
+  <script src="./app/menu.js">
+  </script>
+
+</body>
+
+</html>

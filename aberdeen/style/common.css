@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: white;
+}
+
+#base-viewlayer {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+}
+
+#topnav {
+  height: 5vh;
+  width: 100%;
+  background-color: SteelBlue;
+  padding: 2vh;
+  position: fixed;
+  top: 0%;
+}
+
+#menu_button {
+  //position: relative;
+  left: 1%;
+}
+
+#search_box {
+  position: absolute;
+  background-color: white;
+  right: 2vw;
+  //float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* Style the search box inside the navigation bar
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}*/
+
+#midbox {
+  height: 82vh;
+  width: 100%;
+  background-color: yellow;
+  position: fixed;
+  top: 9vh;
+}
+
+#main_area {
+  background-color: white;
+  padding: 1%;
+  border: none;
+  font-size: 17px;
+  height: 100%;
+  width: 100%;
+}
+
+#profile_button {
+  position: absolute;
+  right: 3%;
+}
+
+#footer {
+  height: 5vh;
+  width: 100%;
+  background-color: SteelBlue;
+  padding: 2vh;
+  position: fixed;
+  bottom: 0%;
+}
+
+#create_button {
+  //position: relative;
+  left: 5px;
+  bottom: 5px;
+}

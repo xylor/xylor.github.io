@@ -1,0 +1,16 @@
+{
+    "name": "Dundee Progressive Web App",
+    "short_name": "Dundee",
+    "description": "Progressive Web App for Project Dundee",
+    "icons": [
+        {
+            "src": "style/irns-logo.svg",
+            "sizes": "32x32",
+            "type": "image/svg"
+        }
+    ],
+    "start_url": "/pwa-examples/dundee/index.html",
+    "display": "fullscreen",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}

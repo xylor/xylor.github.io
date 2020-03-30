@@ -1,0 +1,17 @@
+|::| ToDo:
+#2020-03-25 #todo #lists
+
+
+
+## Now List:
+.   Groceries
+.   Haircut
+.   Piano Lessons
+.   Dinner
+
+
+
+## Later List:
+.   Clean Garage
+.   Taxes
+.   Bank

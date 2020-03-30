@@ -1,0 +1,67 @@
+@font-face {
+     font-family: Moonhouse;
+     src: url(moonhouse.ttf);
+}
+
+body {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: white;
+}
+
+#viewlayer-base {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+}
+
+#topnav {
+  margin: 0px;
+  border: none;
+  padding: 1% 1% 2% 1%;
+  height: 5%;
+  width: 100%;
+  background-color: Crimson;
+  position: fixed;
+  top: 0%;
+}
+
+#top_title {
+  margin: 2%;
+  border: none;
+  padding: 2%;
+  vertical-align: top;
+  font-family: "Moonhouse";
+  font-size: 40px;
+  color: white;
+}
+
+#power_button {
+  position: absolute;
+  right: 3%;
+}
+
+#midbox {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 9%;
+}
+
+.big-button {
+  margin: 1vw;
+  //height: 20vh;
+  width: 30vw;
+  text-align: center;
+  border: solid;
+  border-color: Crimson;
+  border-radius: 5px 5px 5px 5px;
+}
